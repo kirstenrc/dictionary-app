@@ -1,6 +1,6 @@
 import React from "react";
 import Dictionary from "./Dictionary";
-import dictionary from "./dictionary-banner2.png";
+import dictionary from "./dictionary-banner3.png";
 
 import "./App.css";
 
@@ -21,9 +21,16 @@ function App() {
           target="_blank"
           rel="noreferrer noopener"
         >
-          Open-source code
+          Open-source
         </a>{" "}
-        by Kirsten Cox
+        code by{" "}
+        <a
+          href="https://vibrant-galileo-0d7b3f.netlify.app/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          Kirsten Cox
+        </a>
       </footer>
     </div>
   );
